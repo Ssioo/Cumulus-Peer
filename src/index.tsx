@@ -5,7 +5,7 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 import firebase from 'firebase/app'
 import 'firebase/analytics'
 import 'firebase/messaging'
-import { FCM_KEY, FIREBASE_CONFIG } from './utils/constants'
+import { FCM_KEY, FIREBASE_CONFIG } from './infra/constants'
 
 // Initialize Firebase
 firebase.initializeApp(FIREBASE_CONFIG)

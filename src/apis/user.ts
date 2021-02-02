@@ -1,5 +1,5 @@
 import { BaseApi } from './base'
-import { BASE_URL } from '../utils/constants'
+import { BASE_URL } from '../infra/constants'
 import { ApiError } from './error'
 
 class UserApi extends BaseApi {

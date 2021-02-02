@@ -1,4 +1,4 @@
-import { BASE_URL, P2P_URL } from '../utils/constants'
+import { BASE_URL, P2P_URL } from '../infra/constants'
 
 export class BaseApi {
 

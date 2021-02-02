@@ -1,4 +1,4 @@
-import { PC_CONFIG } from '../utils/constants'
+import { PC_CONFIG } from '../infra/constants'
 
 export interface Device {
   device_id: number

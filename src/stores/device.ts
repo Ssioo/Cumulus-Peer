@@ -1,6 +1,6 @@
 import { action, computed, makeAutoObservable, makeObservable, observable } from 'mobx'
 import { deviceApi } from '../apis/device'
-import { P2P_URL } from '../utils/constants'
+import { P2P_URL } from '../infra/constants'
 import { Device, Page, SocketMessage } from '../models/device'
 import io from 'socket.io-client'
 
