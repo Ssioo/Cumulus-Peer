@@ -110,7 +110,7 @@ const DisConnectedDevices = () => {
       <p className="list-title">Your disconnected device(s)</p>
       <p className="list-message">* Click or touch one if you'd like to connect specific device.</p>
       <ul id="ul-disconnected-devices">
-        {deviceStore.myDevices.map((d) =>
+        {deviceStore.disconnectedDevices.map((d) =>
           <DeviceItem device={d} isConnected={false} key={d.device_id.toString()}/>
         )}
       </ul>
