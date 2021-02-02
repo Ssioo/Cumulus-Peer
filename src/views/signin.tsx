@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './css/popup.css'
 import { userStore } from '../stores/user'
 import { useHistory } from 'react-router-dom'
-import './css'
 
 const SignInScreen = () => {
   const [signMode, setSignMode] = useState<0 | 1>(0)
