@@ -1,5 +1,6 @@
-//export const BASE_URL = 'https://cumulus.hoons.io:5000'
-export const BASE_URL = 'http://localhost:5000'
+export const BASE_URL = process.env.NODE_ENV === 'production'
+  ? 'https://cumulus.hoons.io:5000'
+  : 'http://localhost:5000'
 export const P2P_URL = 'https://cumulus.hoons.io:8080'
 
 export const FIREBASE_CONFIG = {
