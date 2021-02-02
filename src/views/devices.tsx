@@ -92,8 +92,7 @@ const DeviceItem: React.FC<{
           const res = await deviceStore.tryCheckDeviceConnection(device.device_id)
           if (res?.isOnline) {
             await deviceStore.initSignaling(device.device_id)
-          }
-          else {
+          } else {
 
           }
         }

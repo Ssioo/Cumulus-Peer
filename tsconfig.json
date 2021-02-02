@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "experimentalDecorators": true,
     "module": "esnext",
     "target": "esnext",
     "lib": [
@@ -24,12 +23,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "useDefineForClassFields": true,
+    "jsx": "react-jsx"
   },
   "exclude": [
-    "node_modules",
-    "build"
+    "node_modules", "build"
   ],
   "include": [
     "src"

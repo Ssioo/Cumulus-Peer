@@ -4,6 +4,7 @@ import { userStore } from '../stores/user'
 import { deviceStore } from '../stores/device'
 import { useHistory } from 'react-router-dom'
 import { Device } from '../models/device'
+import './css/popup.css'
 
 const DeviceDetailScreen = observer(() => {
   const history = useHistory()
@@ -33,7 +34,9 @@ const DeviceDetailScreen = observer(() => {
             <OtherDevice
               key={d.device_id.toString()}
               device={d}
-              onRemoved={(res) => { setMsg(res ? 'Successfully removed !' : 'Failed to remove ...') }}
+              onRemoved={(res) => {
+                setMsg(res ? 'Successfully removed !' : 'Failed to remove ...')
+              }}
             />
           )}
         </ul>

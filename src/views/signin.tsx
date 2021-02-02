@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
 import './css/popup.css'
 import { userStore } from '../stores/user'
-import { userApi } from '../apis/user'
 import { useHistory } from 'react-router-dom'
+import './css'
 
 const SignInScreen = () => {
-
   const [signMode, setSignMode] = useState<0 | 1>(0)
   const [signMessage, setSignMessage] = useState('')
 

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 import { userStore } from '../stores/user'
+import './css/popup.css'
 
 const HomeScreen = () => {
   const history = useHistory()

@@ -25,7 +25,7 @@ const EnrollDeviceScreen = () => {
         <form>
           <h2>Cumulus - Device Register</h2>
           <p style={{ textAlign: 'left' }}>
-            It seems that your device is not currently registered.<br />
+            It seems that your device is not currently registered.<br/>
             Please write down the label or name of your device.
           </p>
           <input
